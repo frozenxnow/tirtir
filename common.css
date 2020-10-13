@@ -34,16 +34,19 @@ a {
 .logo {
     display:block;
     position:absolute;
-    margin: 30px 0px 10px 50px;
+    margin: 45px 0px 10px 50px;
 }
 .tnb {
     position:relative;
     float:right;
-    margin-right:30px;
+}
+.main_menu {
+    margin-top:30px;
 }
 .tnb li {
     float:left;
     margin-right:20px;
+    padding-bottom:20px;
 }
 .tnb li a {
     color:#333;
@@ -53,16 +56,18 @@ a {
     color:red;
 }
 .gnb {
-    width:500px;
+    clear:both;
+    position:relative;
+    width:550px;
     margin:0 auto;
 }
 .gnb li {
     float:left;
-    margin-top:50px;
+    margin-bottom:20px;
 }
 .gnb li a {
     color:#333;
-    margin-right:20px;
+    margin:0 20px;
 }
 .gnb li a:hover {
     color:green;

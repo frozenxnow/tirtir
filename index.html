@@ -56,6 +56,17 @@
             line-height:20px;
             text-align:center;
         }
+        .product {
+            border:1px solid transparent;
+            margin-top:30px;
+        }
+        .product:hover {
+            background-color: rgba(183,215,132,0.3); 
+            transition-duration: 0.7s;
+        }
+        .price {
+            padding-bottom:30px;
+        }
         .sub_list li a img {
             width:280px;
             height:auto;
@@ -172,11 +183,13 @@
                 <a href="product.html" class="top_pop">[첫 구매 쿠폰SHOP 바로가기]</a>
             </div>
             <div class="hd_bottom">
-                <a href="index.html" class="logo">
-                    <img src="./img/logo.png" alt="logo">
-                </a>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./img/logo.png" alt="logo">
+                    </a>
+                </div>
                 <nav class="tnb">
-                    <ul>
+                    <ul class="main_menu">
                         <li><a href="login.html">LOGIN</a></li>
                         <li><a href="join.html">JOIN</a></li>
                         <li><a href="cart.html">CART</a></li>
@@ -205,32 +218,36 @@
             <section class="con">
                 <h3 class="sub_tit">BEST ITEM</h3>
                 <ul class="sub_list"> 
-                    <li>
+                    <li class="product">
                         <a href="product.html">
                             <img src="./img/pro1.png" alt="pro1">
                             <h3 class="item_tit">[티르티르] 도자기 크림 (50ml/100ml)</h3>
                             <p class="item_com">14일만에 태어나는 도자기 결광 #물광크림</p>
+                            <h3 class="item_tit price">24,000원/38,000원</h3>
                         </a>
                     </li>
-                    <li>
+                    <li class="product">
                         <a href="product.html">
                             <img src="./img/pro2.png" alt="pro2">
                             <h3 class="item_tit">[티르티르] 세이프 핸드 버블 솝 (1+1)</h3>
                             <p class="item_com">순하고 부드러운 버블의 강한 세정력</p>
+                            <h3 class="item_tit price">9,000원</h3>
                         </a>
                     </li>
-                    <li>
+                    <li class="product">
                         <a href="product.html">
                             <img src="./img/pro3.png" alt="pro3">
                             <h3 class="item_tit">[티르티르] 유안차</h3>
                             <p class="item_com">12가지 자연성분이 주는 가벼움</p>
+                            <h3 class="item_tit price">13,000원</h3>
                         </a>
                     </li>
-                    <li>
+                    <li class="product">
                         <a href="product.html">
                             <img src="./img/pro4.png" alt="pro4">
                             <h3 class="item_tit">[티르티르] 순 로즈마리 에센스</h3>
                             <p class="item_com">항제주 로즈마리 추출물 100%</p>
+                            <h3 class="item_tit price">38,000원</h3>
                         </a>
                     </li>
                 </ul>
